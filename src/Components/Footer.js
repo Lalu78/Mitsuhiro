@@ -31,8 +31,8 @@ function Footer({ className, setShow }) {
           </div>
         </div>
         <div className='flex flex-col gap-5'>
-          <div>Mobile no. : +91-8888888888</div>
-          <div>Email ID. : example@gmail.com</div>
+          <div>Mobile no. : +91-9560001130 </div>
+          <div>Email ID. : info@mitsuhiro.co.in</div>
           <div className='flex gap-7'>
             <Link className='hover:text-yellow-100'> <img src='/images/fb.svg' /></Link>
             <Link> <img src='/images/twitter.svg' /></Link>

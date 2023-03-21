@@ -14,7 +14,7 @@ function Home() {
       <HeroSection />
       <WhoWeAreSection />
       <EVSection />
-       <Product/>
+      <Product/>
       <HowToOperate/>
       <FAQSection/>
      <Enquiry/>
