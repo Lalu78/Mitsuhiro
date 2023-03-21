@@ -1,0 +1,18 @@
+<svg width="1065" height="587" viewBox="0 0 1065 587" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_105_543)">
+<rect x="0.337891" y="0.5" width="1064" height="586" rx="25" fill="#F7911E"/>
+<g style="mix-blend-mode:multiply">
+<path d="M659.098 162.686C659.098 290.325 762.57 393.797 890.209 393.797C1017.85 393.797 1121.32 290.325 1121.32 162.686C1121.32 35.0476 1017.85 -68.4241 890.209 -68.4241C762.57 -68.4241 659.098 35.0476 659.098 162.686ZM1054.81 162.686C1054.81 253.595 981.118 327.292 890.209 327.292C799.3 327.292 725.603 253.595 725.603 162.686C725.603 71.7772 799.3 -1.91917 890.209 -1.91917C981.118 -1.91917 1054.81 71.7772 1054.81 162.686Z" fill="url(#paint0_radial_105_543)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_105_543" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(972.109 57.6248) rotate(131.769) scale(319.202)">
+<stop stop-color="#F7911E"/>
+<stop offset="0.0001" stop-color="#F5B177" stop-opacity="0.520208"/>
+<stop offset="1" stop-color="#F2CFCD" stop-opacity="0.06"/>
+</radialGradient>
+<clipPath id="clip0_105_543">
+<rect x="0.337891" y="0.5" width="1064" height="586" rx="25" fill="white"/>
+</clipPath>
+</defs>
+</svg>

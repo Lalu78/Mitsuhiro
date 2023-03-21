@@ -1,0 +1,54 @@
+<svg width="350" height="223" viewBox="0 0 350 223" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_45_342)">
+<g clip-path="url(#clip0_45_342)">
+<rect x="4" y="0.110718" width="342" height="214" rx="15" fill="#5C3379"/>
+<g filter="url(#filter1_i_45_342)">
+<path d="M340.399 -1.20877L113.729 221.564L110.986 218.774L337.657 -3.99918L340.399 -1.20877Z" fill="url(#paint0_diamond_45_342)" fill-opacity="0.7"/>
+<path d="M357.99 87.4994L231.948 211.374L230.416 209.815L356.458 85.9406L357.99 87.4994Z" fill="url(#paint1_diamond_45_342)" fill-opacity="0.7"/>
+<path d="M315.017 3.18307L83.5686 230.651L67.3129 214.111L298.761 -13.3571L315.017 3.18307Z" fill="url(#paint2_diamond_45_342)" fill-opacity="0.7"/>
+<path d="M355.1 75.0815L202.534 225.024L191.809 214.111L344.375 64.1684L355.1 75.0815Z" fill="url(#paint3_diamond_45_342)" fill-opacity="0.7"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_45_342" x="0" y="0.110718" width="350" height="222" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.920833 0 0 0 0 0.920833 0 0 0 0 0.920833 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_45_342"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_45_342" result="shape"/>
+</filter>
+<filter id="filter1_i_45_342" x="67.3129" y="-13.3571" width="290.677" height="248.008" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.437548 0 0 0 0 0.255 0 0 0 0 0.566667 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_45_342"/>
+</filter>
+<radialGradient id="paint0_diamond_45_342" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(156.241 468.911) rotate(-69.9305) scale(491.58 16327.4)">
+<stop stop-color="#774699"/>
+<stop offset="1" stop-color="#87649F"/>
+</radialGradient>
+<radialGradient id="paint1_diamond_45_342" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(156.241 468.911) rotate(-69.9305) scale(491.58 16327.4)">
+<stop stop-color="#774699"/>
+<stop offset="1" stop-color="#87649F"/>
+</radialGradient>
+<radialGradient id="paint2_diamond_45_342" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(287.227 99.3846) rotate(122.368) scale(127.473 2905.66)">
+<stop stop-color="#5C3379"/>
+<stop offset="1" stop-color="#844FAA"/>
+</radialGradient>
+<radialGradient id="paint3_diamond_45_342" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(287.227 99.3846) rotate(122.368) scale(127.473 2905.66)">
+<stop stop-color="#5C3379"/>
+<stop offset="1" stop-color="#844FAA"/>
+</radialGradient>
+<clipPath id="clip0_45_342">
+<rect x="4" y="0.110718" width="342" height="214" rx="15" fill="white"/>
+</clipPath>
+</defs>
+</svg>
