@@ -38,7 +38,7 @@ function Enquiry() {
 
 
     return (
-        <div className={`h-auto min-h-[570px] px-5  flex  w-full justify-center border  bg-no-repeat bg-cover bg-center  `} style={{ backgroundImage: 'url("/images/ENQUIRY.svg")', backgroundRepeat: 'no-repeat' }}>
+        <div className={`h-auto min-h-[570px] px-5  flex  w-full justify-center border  bg-no-repeat bg-cover bg-center     `} style={{ backgroundImage: 'url("/images/ENQUIRY.svg")', backgroundRepeat: 'no-repeat' }}>
             <div className='w-full max-w-[800px]'>
                 <h1 className='pt-8 font-semibold md:font-bold text-2xl md:text-4xl text-center'>  Enquire Now </h1>
                 <div className=' mt-6 w-full '>

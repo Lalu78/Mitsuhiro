@@ -8,28 +8,28 @@ const FAQData = [
     {
         id: 2,
         Q: 'How long it will take to charge the battery?',
-        A:'skfslkf'
+        A:'4 to 5 hours'
 
 
     },
     {
         id: 3,
         Q: 'Any special socket required for charging?',
-        A:'skfslkf'
+        A:'No it can be charged through normal socke'
 
 
     },
     {
         id: 4,
         Q: 'How much weight an E - scooty can carry?',
-        A:'skfslkf'
+        A:'160 KG  to 180 KG'
 
 
     },
     {
         id: 5,
         Q: 'What is battery life of an E - scooter in India?',
-        A:'skfslkf'
+        A:' minimum 4 to 5 Years'
 
 
     },
