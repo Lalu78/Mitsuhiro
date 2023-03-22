@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import TextArea from '../Form/TextArea';
-import CountryCode from '../Form/CountryCode';
+import axios from 'axios'
 
 function Enquiry() {
 
@@ -34,6 +34,11 @@ function Enquiry() {
         console.log(data);
         reset()
         alert("Form is submited successfully")
+
+        axios.post('https://sheet.best/api/sheets/d4cfd7f2-a2c1-42ba-9972-6384470fba36', data).then(response => {
+            console.log('response',response);
+         
+        })
     };
 
 
