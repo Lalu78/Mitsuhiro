@@ -14,25 +14,24 @@ function Footer({ className, setShow }) {
       <div className='w-full flex justify-between items-center text-white flex-wrap gap-10 md:gap-5'>
         <div className='flex flex-col'>
           <Link to='/'><img src='/images/logo.svg' className='mt-5' /></Link>
-          <div>office/showroom address line 1</div>
-          <div>office/showroom address line 2</div>
-          <div>office/showroom address line 3</div>
+          <div>A-231 Park Town Commercial Complex</div>
+          <div>Aditya World City NH-24 Ghaziabad</div>
+          <div>Uttar Pradesh 201002.</div>
         </div>
         <div className='flex gap-8 md:gap-16'>
           <div className='flex flex-col gap-5'>
             <Link to='about'>About Us</Link>
             <Link to='products'>Our Products</Link>
-            <Link onClick={onHandleClick}>Become a Dealer</Link>
           </div>
           <div className='flex flex-col gap-5'>
-            <Link to='contactUs'>Contact Us</Link>
             <Link to='mission'>Our Mission</Link>
-            <Link to='/'>Terms & Conditions</Link>
+            <Link onClick={onHandleClick}>Become a Dealer</Link>
           </div>
         </div>
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-3'>
           <div>Mobile no. : +91-9560001130</div>
           <div>Email ID. : info@mitsuhiro.co.in</div>
+          <div>Customer care. : +91-9560001131</div>
           <div className='flex gap-7'>
             <Link className='hover:text-yellow-100'> <img src='/images/fb.svg' /></Link>
             <Link> <img src='/images/twitter.svg' /></Link>

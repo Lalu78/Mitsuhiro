@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import TextArea from '../Form/TextArea';
+import axios from 'axios'
 
 
 function DealerPopup({ onCancel, show }) {
@@ -23,7 +24,7 @@ function DealerPopup({ onCancel, show }) {
                 email: yup.string().required().email(),
                 city: yup.string().required(),
                 state: yup.string().required(),
-                message: yup.string().required(),
+                message: yup.string()
             })
         ),
         defaultValues: {}
@@ -33,6 +34,11 @@ function DealerPopup({ onCancel, show }) {
         console.log(data);
         reset()
         alert("Form is submited successfully")
+
+        axios.post('https://sheet.best/api/sheets/d4cfd7f2-a2c1-42ba-9972-6384470fba36', data).then(response => {
+            console.log('response',response);
+         
+        })
     };
 
     return (
