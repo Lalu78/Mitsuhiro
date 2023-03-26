@@ -27,6 +27,23 @@ rdion-toggle h3 {
 .accordion-content {
   padding: 10px;
 }
-.required{
+
+.required {
   color: red;
 }
+
+@media only screen and (max-width: 1000px) and (min-width: 1500px)  {
+ 
+
+}
+@media only screen and (min-width: 750px) and (max-width: 1600px) {
+  .react-multiple-carousel__arrow--right {
+    right: calc(0.5% + 1px) !important;
+  }
+
+  .react-multiple-carousel__arrow--left {
+    left: calc(0.5% + 1px) !important;
+  }       
+}
+
+

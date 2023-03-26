@@ -18,10 +18,9 @@ function Products() {
         </div>
       </div>
       <div className='flex flex-col gap-5  md:gap-12 '>
-        <div className=' flex flex-col md:flex-row gap-5 w-full justify-around  '>
-          <div className='relative max-w-[507px]'>
-            <img src='/images/egle.svg'/>
-            <button onClick={() => setShow(true)} className='absolute right-8 md:right-16 lg:right-20 bottom-4 md:bottom-3 lg:bottom-7 text-[#F7911E] font-medium text-xs md:text-sm underline'>View Product details</button>
+        <div className=' flex flex-col md:flex-row gap-5 w-full justify-around'>
+          <div className=' max-w-[507px]'>
+            <img onClick={() => setShow(true)} src='/images/Eglenew.svg' className='cursor-pointer' />
             {true &&
               <Modal
                 show={show}
@@ -32,8 +31,7 @@ function Products() {
               </Modal>}
           </div>
           <div className='relative max-w-[507px]'>
-            <img src='/images/jin.svg'/>
-            <button onClick={() => setShow1(true)} className='absolute right-8 md:right-16 lg:right-20 bottom-4 md:bottom-3 lg:bottom-7 text-[#F7911E] font-medium text-xs md:text-sm underline'>View Product details</button>
+            <img onClick={() => setShow1(true)} src='/images/jinnew.svg' className='cursor-pointer' />
             <Modal
               show={show1}
               width=' md:w-[650px]'
@@ -43,10 +41,9 @@ function Products() {
             </Modal>
           </div>
         </div>
-        <div className=' flex flex-col md:flex-row gap-5 w-full justify-around  '>
-          <div className='relative max-w-[507px]'>
-            <img src='/images/apro.svg'/>
-            <button onClick={() => setShow2(true)} className='absolute right-8 md:right-16 lg:right-20 bottom-4 md:bottom-3 lg:bottom-7 text-[#F7911E] font-medium text-xs md:text-sm underline'>View Product details</button>
+        <div className=' flex flex-col md:flex-row gap-5 w-full justify-around'>
+          <div className='max-w-[507px]'>
+            <img onClick={() => setShow2(true)} src='/images/apronew.svg' className='cursor-pointer' />
             <Modal
               show={show2}
               width=' md:w-[650px]'
@@ -56,9 +53,8 @@ function Products() {
             </Modal>
 
           </div>
-          <div className='relative max-w-[507px]'>
-            <img src='/images/max.svg'/>
-            <button onClick={() => setShow3(true)} className='absolute right-8 md:right-16 lg:right-20 bottom-4 md:bottom-3 lg:bottom-7 text-[#F7911E] font-medium text-xs md:text-sm underline'>View Product details</button>
+          <div className='max-w-[507px]'>
+            <img onClick={() => setShow3(true)} src='/images/maxnew.svg' className='cursor-pointer' />
             <Modal
               show={show3}
               width=' md:w-[650px]'
@@ -70,9 +66,8 @@ function Products() {
         </div>
       </div>
       <div className='flex justify-center w-full my-5 md:my-12'>
-        <div className='relative max-w-[507px]'>
-          <img src='/images/starpro.svg'/>
-          <button onClick={() => setShow4(true)} className='absolute right-8 md:right-16 lg:right-20 bottom-3 md:bottom-3 lg:bottom-7 text-[#F7911E] font-medium text-xs md:text-sm underline'>View Product details</button>
+        <div className=' max-w-[507px] h-auto'>
+          <img onClick={() => setShow4(true)} src='/images/starpronew.svg' className='cursor-pointer' />
           <Modal
             show={show4}
             width=' md:w-[650px]'

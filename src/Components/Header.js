@@ -1,12 +1,8 @@
 import React, { useState, useRef } from 'react'
-
-import useClickOutside from '../Components/Common/ClickOutside'
 import { Link } from 'react-router-dom'
 
 function Header({ className }) {
   const [showMenu, setShowMenu] = useState(false)
-  const showRef = useRef(null);
-  useClickOutside(showRef, () => setShowMenu(false));
 
   return (
     <div className={`${className} h-20 md:h-[109px] bg-[#303131] w-full px-6 md:px-12 lg:px-[110px] flex justify-between items-center`}>

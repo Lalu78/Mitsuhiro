@@ -32,13 +32,6 @@ function Footer({ className, setShow }) {
           <div>Enquiry : +91-9560001130</div>
           <div>Email ID. : info@mitsuhiro.co.in</div>
           <div>Customer care. : +91-9560001131</div>
-          <div className='flex gap-7'>
-            <Link className='hover:text-yellow-100'> <img src='/images/fb.svg' /></Link>
-            <Link> <img src='/images/twitter.svg' /></Link>
-            <Link> <img src='/images/linkedin.svg' /></Link>
-            <Link> <img src='/images/youtub.svg' /></Link>
-            <Link> <img src='/images/insta.svg' /></Link>
-          </div>
         </div>
       </div>
     </div>
