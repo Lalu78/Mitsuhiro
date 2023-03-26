@@ -29,7 +29,7 @@ function Footer({ className, setShow }) {
           </div>
         </div>
         <div className='flex flex-col gap-3'>
-          <div>Mobile no. : +91-9560001130</div>
+          <div>Enquiry : +91-9560001130</div>
           <div>Email ID. : info@mitsuhiro.co.in</div>
           <div>Customer care. : +91-9560001131</div>
           <div className='flex gap-7'>
