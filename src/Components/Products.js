@@ -18,7 +18,7 @@ function Products() {
         </div>
       </div>
       <div className='flex flex-col gap-5  md:gap-12 '>
-        <div className=' flex flex-col md:flex-row gap-5 w-full justify-between  '>
+        <div className=' flex flex-col md:flex-row gap-5 w-full justify-around  '>
           <div className='relative max-w-[507px]'>
             <img src='/images/egle.svg'/>
             <button onClick={() => setShow(true)} className='absolute right-8 md:right-16 lg:right-20 bottom-4 md:bottom-3 lg:bottom-7 text-[#F7911E] font-medium text-xs md:text-sm underline'>View Product details</button>
@@ -43,7 +43,7 @@ function Products() {
             </Modal>
           </div>
         </div>
-        <div className=' flex flex-col md:flex-row gap-5 w-full justify-between  '>
+        <div className=' flex flex-col md:flex-row gap-5 w-full justify-around  '>
           <div className='relative max-w-[507px]'>
             <img src='/images/apro.svg'/>
             <button onClick={() => setShow2(true)} className='absolute right-8 md:right-16 lg:right-20 bottom-4 md:bottom-3 lg:bottom-7 text-[#F7911E] font-medium text-xs md:text-sm underline'>View Product details</button>

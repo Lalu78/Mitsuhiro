@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 function HeroSection() {
     return (
-        <div className={`h-auto md:h-[570px] px-5 md:px-12 lg:px-[90px] flex flex-col md:flex-row justify-between w-full  bg-no-repeat bg-cover bg-center text-white bg-[url('../public/images/Herosectionmobilebg.svg')] md:bg-[url('../public/images/HeroBanner.svg')]`}>
-            <div className=' mt-14 md:mt-20'>
+        <div className={`h-auto md:h-[570px]  md:px-12 lg:px-[90px] flex flex-col md:flex-row justify-between w-full  bg-no-repeat bg-cover bg-center text-white bg-[url('../public/images/Herosectionmobilebg.svg')] md:bg-[url('../public/images/HeroBanner.svg')]`}>
+            <div className=' mt-14 md:mt-20 px-5 md:px-0'>
                 <div className='font-bold text-3xl lg:text-6xl'>
                     Experience <br />
                     the joy of <span className='text-[#F7911E]'>sustainable</span><br />transportation

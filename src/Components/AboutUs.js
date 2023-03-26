@@ -14,7 +14,7 @@ function AboutUs() {
           <div className='flex flex-col gap-6'>
             <li className='font-semibold text-base  text-[#AECD63]'>About Us</li>
             <div className='font-semibold text-3xl'>Sustainable Transportation <br /> <span className='text-[#F7911E]'>Made Easy..</span> </div>
-            <div className='text-base font-normal'><span className='font-bold'>Welcome to Mitsuhiro,</span><br />
+            <div className='text-base font-normal pb-7'><span className='font-bold'>Welcome to Mitsuhiro,</span><br />
               the premier destination for high-quality electric scooters and electric bikes. At Mitsuhiro, we are committed to provide our customers with the best electric vehicles which are both eco-friendly and stylish</div>
           </div>
         </div>
