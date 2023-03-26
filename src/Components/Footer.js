@@ -14,6 +14,7 @@ function Footer({ className, setShow }) {
       <div className='w-full flex justify-between items-center text-white flex-wrap gap-10 md:gap-5'>
         <div className='flex flex-col'>
           <Link to='/'><img src='/images/logo.svg' className='mt-5' /></Link>
+          <div>Mitsuhiro India Pvt Ltd</div>
           <div>A-231 Park Town Commercial Complex</div>
           <div>Aditya World City NH-24 Ghaziabad</div>
           <div>Uttar Pradesh 201002.</div>
