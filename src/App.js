@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route, } from 'react-router-dom'
+import { Routes, Route, } from 'react-router-dom'
 import './App.css';
 import About from './Components/AboutUs';
 import Footer from './Components/Footer';
@@ -23,28 +23,23 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
-        <Header className='fixed top-0 w-full z-10' />
-        <div className='pt-20 md:pt-[100px] min-h-screen '>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/mission" element={<Mission />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/contactUs" element={<ContactUs />} />
-          </Routes>
-          <DealerPopup
-            onCancel={onCancel}
-            show={show}
-          />
-          <Footer
-            setShow={setShow}
-          />
-
-        </div>
-
-      </BrowserRouter>
-
+      <Header className='fixed top-0 w-full z-10' />
+      <div className='pt-20 md:pt-[100px] min-h-screen '>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+        </Routes>
+        <DealerPopup
+          onCancel={onCancel}
+          show={show}
+        />
+        <Footer
+          setShow={setShow}
+        />
+      </div>
     </div>
   );
 }
