@@ -46,7 +46,7 @@ function MultiCarousel() {
                     images.map((e) => {
                         return (
                             <div className='flex justify-center w-full'>
-                                <img src={e} className='' />
+                                <img src={e} className='h-[214.39px] w-[297px] md:w-[342px]'/>
                             </div>
                         )
                     })
