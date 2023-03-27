@@ -3,9 +3,9 @@ import React from 'react'
 function EVSection() {
   return (
     <div className='flex flex-col md:flex-row bg-no-repeat bg-cover bg-center  h-auto' style={{ backgroundImage: 'url("/images/benefitsbg.svg")', backgroundRepeat: 'no-repeat' }}>
-      <div className='flex gap-x-4 md:gap-2'>
-        <img src='/images/EVCharging.svg' alt='icon' className='h-[214px] md:h-[347.25px]' />
-        <h1 className='font-medium md:font-bold text-xl md:text-4xl  text-white mt-16 md:mt-20 visible md:invisible'>Why you should <span className='text-[#AECD63]'>use <br /></span>an <span className='text-[#AECD63]'>electric vehicle</span></h1>
+      <div className='flex gap-x-2 md:gap-x-4 md:gap-2'>
+        <img src='/images/EVCharging.svg' alt='icon' className='h-[210px] md:h-[347.25px]' />
+        <h1 className='font-semibold  text-lg  text-white mt-16 md:mt-20 visible md:invisible'>Why you should <span className='text-[#AECD63]'>use <br /></span>an <span className='text-[#AECD63]'>electric vehicle</span></h1>
       </div>
       <div className='px-4 md:px-0'>
         <h1 className='font-medium md:font-bold text-xl md:text-4xl  text-white  md:mt-20 invisible md:visible'>Why you should <span className='text-[#AECD63]'>use <br /></span>an <span className='text-[#AECD63]'>electric vehicle</span></h1>

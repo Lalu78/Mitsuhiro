@@ -16,7 +16,7 @@ function HowToOperate() {
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.240234 7.61768C0.240234 5.62855 1.03041 3.7209 2.43693 2.31437C3.84346 0.907852 5.75111 0.117676 7.74023 0.117676C9.72936 0.117676 11.637 0.907852 13.0435 2.31437C14.4501 3.7209 15.2402 5.62855 15.2402 7.61768C15.2402 9.6068 14.4501 11.5145 13.0435 12.921C11.637 14.3275 9.72936 15.1177 7.74023 15.1177C5.75111 15.1177 3.84346 14.3275 2.43693 12.921C1.03041 11.5145 0.240234 9.6068 0.240234 7.61768ZM7.31223 10.8277L11.6302 5.42968L10.8502 4.80568L7.16823 9.40668L4.56023 7.23368L3.92023 8.00168L7.31223 10.8287V10.8277Z" fill="white" />
                         </svg>
                     </div>
-                    <p className='font-normal text-base'>We operate through Super Stockists and Store Network .Super Stockists work in assigned territory and supply to stores in given territory. </p>
+                    <p className='font-normal text-base'>We operate through Super Stockists and Store Network. Super Stockists work in assigned territory and supply to stores in given territory </p>
                 </li>
                 <li className='float-left flex gap-x-2.5'>
                     <div className='h-6 w-6 mt-[5px]'>
@@ -24,7 +24,7 @@ function HowToOperate() {
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.240234 7.61768C0.240234 5.62855 1.03041 3.7209 2.43693 2.31437C3.84346 0.907852 5.75111 0.117676 7.74023 0.117676C9.72936 0.117676 11.637 0.907852 13.0435 2.31437C14.4501 3.7209 15.2402 5.62855 15.2402 7.61768C15.2402 9.6068 14.4501 11.5145 13.0435 12.921C11.637 14.3275 9.72936 15.1177 7.74023 15.1177C5.75111 15.1177 3.84346 14.3275 2.43693 12.921C1.03041 11.5145 0.240234 9.6068 0.240234 7.61768ZM7.31223 10.8277L11.6302 5.42968L10.8502 4.80568L7.16823 9.40668L4.56023 7.23368L3.92023 8.00168L7.31223 10.8287V10.8277Z" fill="white" />
                         </svg>
                     </div>
-                    <p className='font-normal text-base '>We provide branding and marketing support to the stores .</p>
+                    <p className='font-normal text-base '>We provide branding and marketing support to the stores</p>
                 </li>
                 <li className='float-left flex gap-x-2.5'>
                     <div className='h-6 w-6 mt-[5px] '>
@@ -32,7 +32,7 @@ function HowToOperate() {
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.240234 7.61768C0.240234 5.62855 1.03041 3.7209 2.43693 2.31437C3.84346 0.907852 5.75111 0.117676 7.74023 0.117676C9.72936 0.117676 11.637 0.907852 13.0435 2.31437C14.4501 3.7209 15.2402 5.62855 15.2402 7.61768C15.2402 9.6068 14.4501 11.5145 13.0435 12.921C11.637 14.3275 9.72936 15.1177 7.74023 15.1177C5.75111 15.1177 3.84346 14.3275 2.43693 12.921C1.03041 11.5145 0.240234 9.6068 0.240234 7.61768ZM7.31223 10.8277L11.6302 5.42968L10.8502 4.80568L7.16823 9.40668L4.56023 7.23368L3.92023 8.00168L7.31223 10.8287V10.8277Z" fill="white" />
                         </svg>
                     </div>
-                    <p className='font-normal text-base '>We provide extensive service training and technical support to stores’s technicians.</p>
+                    <p className='font-normal text-base '>We provide extensive service training and technical support to stores’s technicians</p>
                 </li>
             </div>
         </div>
