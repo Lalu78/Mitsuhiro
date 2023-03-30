@@ -6,7 +6,7 @@ function Header({ className }) {
 
   const navigate = useNavigate();
   function handleClick() {
-    navigate("/mission");
+    navigate("mission");
   }
 
 
@@ -16,8 +16,8 @@ function Header({ className }) {
         <Link to='/' ><img src='/images/logoLarge.svg' className='h-20 w-40 md:h-[90px] md:w-[321px] ' alt='logo' /></Link>
       </div>
       <div className='hidden md:flex gap-x-4 md:gap-x-7 lg:gap-x-14 text-[#EBEBEB] font-medium text-sm'>
-        <Link to='/about'>AboutUs</Link>
-        <Link to='/products'>Products</Link>
+        <Link to='about'>AboutUs</Link>
+        <Link to='products'>Products</Link>
         <button onClick={handleClick} >Mission</button>
 
       </div>

@@ -27,10 +27,10 @@ function App() {
       <div className='pt-20 md:pt-[100px] min-h-screen '>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/mission" element={<Mission />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="about" element={<About />} />
+          <Route path="mission" element={<Mission />} />
+          <Route path="products" element={<Products />} />
+          <Route path="contactUs" element={<ContactUs />} />
         </Routes>
         <DealerPopup
           onCancel={onCancel}
