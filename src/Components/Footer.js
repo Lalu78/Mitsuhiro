@@ -30,7 +30,10 @@ function Footer({ className, setShow }) {
           </div>
         </div>
         <div className='flex flex-col gap-3'>
-          <div>Enquiry : +91-9560001130</div>
+          <div className='flex gap-2 items-center'>
+            <Link to='https://wa.me/message/EY7TNDPGSEQUE1'><img src='/images/whatsapp.png' className='h-5 w-5'/></Link>
+            <div>Enquiry : +91-9560001130</div>
+          </div>
           <div>Email ID. : info@mitsuhiro.co.in</div>
           <div>Customer care. : +91-9560001131</div>
         </div>
