@@ -6,6 +6,7 @@ function Products() {
   const [show2, setShow2] = useState(false)
   const [show3, setShow3] = useState(false)
   const [show4, setShow4] = useState(false)
+  const [show5, setShow5] = useState(false)
   return (
 
     <div className={`h-auto  px-5 md:px-12 lg:px-[70px] xl:px-[110px] w-full  bg-no-repeat bg-cover bg-center bg-[url('../public/images/productpagebg.svg')] `}>
@@ -65,7 +66,17 @@ function Products() {
           </div>
         </div>
       </div>
-      <div className='flex justify-center w-full my-5 md:my-12'>
+      <div className='flex flex-col md:flex-row gap-5 w-full justify-around my-5 md:my-12'>
+        <div className=' max-w-[507px] h-auto '>
+          <img onClick={() => setShow5(true)} src='/images/cabannew.svg' className='cursor-pointer' />
+          <Modal
+            show={show5}
+            width=' md:w-[650px]'
+            onCancel={() => setShow5(false)}
+          >
+            <img src='/images/cbanabig.jpg'/>
+          </Modal>
+        </div>
         <div className=' max-w-[507px] h-auto'>
           <img onClick={() => setShow4(true)} src='/images/starpronew.svg' className='cursor-pointer' />
           <Modal

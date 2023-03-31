@@ -31,6 +31,7 @@ let images = [
     '/images/model4.svg',
     '/images/model5.svg',
     '/images/model6.svg',
+    '/images/cabanacrosel.svg'
 ];
 
 function MultiCarousel() {
