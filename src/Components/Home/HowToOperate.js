@@ -4,7 +4,7 @@ function HowToOperate() {
     return (
         <div className={`h-auto min-h-[510px] lg:gap-10 px-2 md:px-12  xl:px-[90px] w-full flex flex-col lg:flex-row bg-no-repeat bg-cover  text-white `} style={{ backgroundImage: 'url("/images/Howweoperatebg.svg")', backgroundRepeat: 'no-repeat' }}>
             <div className='flex my-10   w-full lg:max-w-[658px] relative'>
-                <img src='/images/howtoOpate.svg' alt='logo' className=' w-full lg:max-w-[658px] ' />
+                <img src='/images/howweoperate.png' alt='logo' className=' w-full lg:max-w-[658px] ' />
                 <img src='/images/leftrinch.svg' alt='logo' className='w-[100px] md:w-[150px] lg:w-[200px] absolute md:left-6  bottom-4' />
                 <img src='/images/rightrich.svg' alt='logo' className='w-[100px] md:w-[150px] lg:w-[200px] absolute right-0 md:right-6 top-4' />
             </div>

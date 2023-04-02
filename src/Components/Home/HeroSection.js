@@ -13,8 +13,8 @@ function HeroSection() {
                 <Link to='products'>  <button className='mt-7 md:mt-10 bg-[#AECD63] text-black h-12 w-[160px] text-center rounded-[6px]'>View Products</button></Link>
             </div>
             <div className='flex gap-2 md:gap-3 lg:gap-5 mb-10 md:mb-0 mt-14 md:mt-[90px] xl:mt-0'>
-                <img src='/images/Bike.svg' alt='' className='h-[355px] w-[173px] lg:w-60 lg:h-96 xl:w-full xl:h-auto' />
-                <img src='/images/Bikebluewhite.svg' alt='' className='h-[355px] w-[173px]  lg:w-60 lg:h-96 xl:w-full xl:h-auto' />
+                <img src='/images/Bike 2.png' alt='=img' className='h-[355px] w-[173px] lg:w-60 lg:h-96 xl:w-full xl:h-auto' />
+                <img src='/images/Bike 3.png' alt='img' className='h-[355px] w-[173px]  lg:w-60 lg:h-96 xl:w-full xl:h-auto' />
             </div>
         </div>
     )

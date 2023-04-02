@@ -1,14 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
 function AboutUs() {
+  
   return (
     <div className={`min-h-screen h-auto  px-5 md:px-12 lg:px-[70px] xl:px-[110px] w-full  bg-no-repeat bg-cover bg-center bg-[url('../public/images/aboutusbg.svg')] `}>
       <div className='pt-12 md:pt-20'>
         <div className={` flex flex-col md:flex-row justify-between gap-20 px-8 md:px-16 items-center h-auto min-h-[414px] rounded-3xl w-full  bg-no-repeat bg-cover bg-center  bg-white bg-[url('../public/images/productBg.svg')]`}>
           <div className='mt-3 md:mt-0'>
             <div className='h-[300px] w-[300px] md:h-[340px] md:w-[340px] rounded-full bg-[#4C4D4D]'>
-              <img src='/images/aboutusbike.svg' />
+              <img src='/images/threebike.png' />
             </div>
           </div>
           <div className='flex flex-col gap-6'>
@@ -26,7 +25,7 @@ function AboutUs() {
           <p className='text-center font-semibold italic'> Our company is  founded by a group of professionals  who are passionate about sustainable transportation solutions
           </p>
         </div>
-        <img src='/images/aboutusgreen.svg' />
+        <img src='/images/aboutgreen.png' />
       </div>
     </div>
   )

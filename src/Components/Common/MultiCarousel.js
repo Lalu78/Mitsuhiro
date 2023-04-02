@@ -25,13 +25,14 @@ const responsive = {
     }
 };
 let images = [
-    '/images/model1.svg',
-    '/images/model2.svg',
-    '/images/model3.svg',
-    '/images/model4.svg',
-    '/images/model5.svg',
-    '/images/model6.svg',
-    '/images/cabanacrosel.svg'
+    '/images/egleblue.png',
+    '/images/aprochokelate.png',
+    '/images/max.png',
+    '/images/jinnew.png',
+    '/images/cabana.png',
+    '/images/egle.png',
+    '/images/apro.png',
+    
 ];
 
 function MultiCarousel() {

@@ -21,54 +21,54 @@ function Products() {
       <div className='flex flex-col gap-5  md:gap-12 '>
         <div className=' flex flex-col md:flex-row gap-5 w-full justify-around'>
           <div className=' max-w-[507px]'>
-            <img onClick={() => setShow(true)} src='/images/Eglenew.svg' className='cursor-pointer' />
+            <img onClick={() => setShow(true)} src='/images/EAGLE.png' className='cursor-pointer' />
             {true &&
               <Modal
                 show={show}
                 width=' w-full md:w-[650px]'
                 onCancel={() => setShow(false)}
               >
-                <img src='/images/eglebig.svg' />
+                <img src='/images/EAGLEDETAILS.png' />
               </Modal>}
           </div>
           <div className='relative max-w-[507px]'>
-            <img onClick={() => setShow1(true)} src='/images/jinnew.svg' className='cursor-pointer' />
+            <img onClick={() => setShow1(true)} src='/images/JIN.png' className='cursor-pointer' />
             <Modal
               show={show1}
               width=' md:w-[650px]'
               onCancel={() => setShow1(false)}
             >
-              <img src='/images/jinbig.svg' />
+              <img src='/images/JINDETAILS.png' />
             </Modal>
           </div>
         </div>
         <div className=' flex flex-col md:flex-row gap-5 w-full justify-around'>
           <div className='max-w-[507px]'>
-            <img onClick={() => setShow2(true)} src='/images/apronew.svg' className='cursor-pointer' />
+            <img onClick={() => setShow2(true)} src='/images/APRO.png' className='cursor-pointer' />
             <Modal
               show={show2}
               width=' md:w-[650px]'
               onCancel={() => setShow2(false)}
             >
-              <img src='/images/aprobig.svg' />
+              <img src='/images/APRODETAILS.png' />
             </Modal>
 
           </div>
           <div className='max-w-[507px]'>
-            <img onClick={() => setShow3(true)} src='/images/maxnew.svg' className='cursor-pointer' />
+            <img onClick={() => setShow3(true)} src='/images/MAX.png' className='cursor-pointer' />
             <Modal
               show={show3}
               width=' md:w-[650px]'
               onCancel={() => setShow3(false)}
             >
-              <img src='/images/maxbig.svg' />
+              <img src='/images/MAXDETAILS.png' />
             </Modal>
           </div>
         </div>
       </div>
       <div className='flex flex-col md:flex-row gap-5 w-full justify-around my-5 md:my-12'>
         <div className=' max-w-[507px] h-auto '>
-          <img onClick={() => setShow5(true)} src='/images/cabannew.svg' className='cursor-pointer' />
+          <img onClick={() => setShow5(true)} src='/images/CABANA.png' className='cursor-pointer' />
           <Modal
             show={show5}
             width=' md:w-[650px]'
@@ -78,13 +78,13 @@ function Products() {
           </Modal>
         </div>
         <div className=' max-w-[507px] h-auto'>
-          <img onClick={() => setShow4(true)} src='/images/starpronew.svg' className='cursor-pointer' />
+          <img onClick={() => setShow4(true)} src='/images/STARPRO.png' className='cursor-pointer' />
           <Modal
             show={show4}
             width=' md:w-[650px]'
             onCancel={() => setShow4(false)}
           >
-            <img src='/images/starprobig.svg' />
+            <img src='/images/STARPRODETAILS.png' />
           </Modal>
         </div>
       </div>
