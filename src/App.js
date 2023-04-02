@@ -1,4 +1,4 @@
-
+import React,{useState} from 'react';
 import { Routes, Route, } from 'react-router-dom'
 import './App.css';
 import About from './Components/AboutUs';
@@ -8,8 +8,6 @@ import Home from './Components/Home/Home';
 import Mission from './Components/Mission';
 import Products from './Components/Products';
 import ContactUs from './Components/ContactUs';
-
-import { useState } from 'react';
 import DealerPopup from './Components/Form/DealerPopup';
 
 

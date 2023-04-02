@@ -5,7 +5,7 @@ import MultiCarousel from '../Common/MultiCarousel';
 
 function Product() {
     return (
-        <div className={`h-auto a w-full  bg-no-repeat bg-cover bg-center bg-[url('../public/images/productBg.svg')]`}>
+        <div className={`h-auto a w-full  bg-no-repeat bg-cover bg-center bg-[url('../public/images/WHITEBUBBOL.png')]`}>
             <div className='pb-5 md:pb-10'>
                 <div className='py-5 md:py-10  w-full h-auto '>
                     <div className='px-6 md:px-[55px] lg:px-[110px] flex justify-between items-center pb-6 md:pb-2'>

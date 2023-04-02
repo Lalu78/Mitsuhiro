@@ -9,8 +9,8 @@ function Products() {
   const [show5, setShow5] = useState(false)
   return (
 
-    <div className={`h-auto  px-5 md:px-12 lg:px-[70px] xl:px-[110px] w-full  bg-no-repeat bg-cover bg-center bg-[url('../public/images/productpagebg.svg')] `}>
-      <div className={`px-5 md:px-15  lg:px-24  my-12 flex flex-col items-center w-full mt-14 bg-no-repeat bg-cover bg-center rounded-2xl  bg-[url('../public/images/producttopbg.svg')] `}>
+    <div className={`h-auto  px-5 md:px-12 lg:px-[70px] xl:px-[110px] w-full  bg-no-repeat bg-cover bg-center bg-[url('../public/images/productpagebg.png')] `}>
+      <div className={`px-5 md:px-15  lg:px-24  my-12 flex flex-col items-center w-full mt-14 bg-no-repeat bg-cover bg-center rounded-2xl  bg-[url('../public/images/producttopbg.png')] `}>
         <h1 className=' text-black font-bold  text-4xl py-4'>Our Products</h1>
         <div className='flex flex-col gap-y-5 pb-5 font-normal text-lg '>
           <p className='text-center'>Our team consists of experienced professionals ,engineers, designers, and technicians who work tirelessly to create electric vehicles that are safe, reliable, and easy to use. We are constantly researching and innovating to develop new technologies that will improve the performance and usability of our products. </p>

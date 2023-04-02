@@ -62,3 +62,6 @@ rdion-toggle h3 {
 .react-multiple-carousel__arrow{
   z-index: 0;
 }
+.active{
+  color: #AECD63;
+}

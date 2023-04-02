@@ -2,7 +2,7 @@ import React from 'react'
 
 function EVSection() {
   return (
-    <div className='flex flex-col md:flex-row bg-no-repeat bg-cover bg-center  h-auto' style={{ backgroundImage: 'url("/images/benefitsbg.svg")', backgroundRepeat: 'no-repeat' }}>
+    <div className='flex flex-col md:flex-row bg-no-repeat bg-cover bg-center  h-auto' style={{ backgroundImage: 'url("/images/BENIFIT.png")', backgroundRepeat: 'no-repeat' }}>
       <div className='flex gap-x-2 md:gap-x-4 md:gap-2'>
         <img src='/images/EVCharging.png' alt='icon' className='h-[210px] md:h-[347.25px]' />
         <h1 className='font-semibold  text-lg  text-white mt-16 md:mt-20 visible md:invisible'>Why you should <span className='text-[#AECD63]'>use <br /></span>an <span className='text-[#AECD63]'>electric vehicle</span></h1>
