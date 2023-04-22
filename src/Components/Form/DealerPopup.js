@@ -21,7 +21,7 @@ function DealerPopup({ onCancel, show }) {
             yup.object().shape({
                 fullName: yup.string().matches(/^[a-zA-Z0-9\s-]*$/, 'Invalid characters in name').required(),
                 phoneNumber: yup.string().required(),
-                email: yup.string().required().email(),
+                email: yup.string(),
                 city: yup.string().required(),
                 state: yup.string().required(),
                 message: yup.string()
@@ -48,9 +48,8 @@ function DealerPopup({ onCancel, show }) {
             heading="Become a Dealer"
             onCancel={onCancel}
         >
-            <div>
-                <p>Our motto is to promote green energy and eco system for a pollution free environment, we bring you an opportunity to start your own business, star a new gateway of work, life, and needs into an integrated existence.</p>
-                <p className='mt-10 text-[#F7911E] font-medium text-lg italic'>Please fill this form</p>
+            <div className='w-full'>
+                <p className='mt-5 text-[#F7911E] font-medium text-lg italic'>Please fill this form</p>
                 <div className='mt-8'>
 
                     <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-6'>
@@ -79,7 +78,7 @@ function DealerPopup({ onCancel, show }) {
                             <TextField
                                 type="email"
                                 placeholder="Enter your mail Id"
-                                label='E-mail ID *'
+                                label='E-mail ID'
                                 name="email"
                                 id="email"
                                 register={register}

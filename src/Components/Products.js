@@ -78,7 +78,7 @@ function Products() {
           </Modal>
         </div>
         <div className=' max-w-[507px] h-auto'>
-          <img onClick={() => setShow4(true)} src='/images/STARPRO.png' className='cursor-pointer' />
+          <img onClick={() => setShow4(true)} src='/images/loader.png' className='cursor-pointer' />
           <Modal
             show={show4}
             width=' md:w-[650px]'

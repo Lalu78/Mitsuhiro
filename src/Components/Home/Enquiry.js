@@ -19,7 +19,7 @@ function Enquiry() {
             yup.object().shape({
                 fullName: yup.string().matches(/^[a-zA-Z0-9\s-]*$/, 'Invalid characters in name').required(),
                 phoneNumber: yup.string().required(),
-                email: yup.string().required().email(),
+                email: yup.string(),
                 city: yup.string().required(),
                 state: yup.string().required(),
                 message: yup.string()
@@ -72,7 +72,7 @@ function Enquiry() {
                             <TextField
                                 type="email"
                                 placeholder="Enter your mail Id"
-                                label='E-mail ID *'
+                                label='E-mail ID'
                                 name="email"
                                 id="email"
                                 register={register}
