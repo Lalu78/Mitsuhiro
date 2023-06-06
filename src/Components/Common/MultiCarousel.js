@@ -25,13 +25,15 @@ const responsive = {
     }
 };
 let images = [
-    '/images/egleblue.png',
-    '/images/aprochokelate.png',
-    '/images/max.png',
-    '/images/jinnew.png',
-    '/images/cabana.png',
-    '/images/egle.png',
-    '/images/apro.png',
+    '/images/crossel1.png',
+    '/images/crossel8.png',
+    '/images/crossel3.png',
+    '/images/crossel4.png',
+    '/images/crossel5.png',
+    '/images/crossel6.png',
+    '/images/crossel7.png',
+  
+
     
 ];
 
